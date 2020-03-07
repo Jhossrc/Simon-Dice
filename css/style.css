@@ -1,0 +1,85 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d8d8d8;
+}
+
+.gameboard {
+    width: 100vh;
+    height: 100vh;
+    margin: 0 auto;
+    border-radius: 50%;
+    max-height: 60vh;
+    max-width: 60vh;
+    overflow: hidden;
+}
+
+.color-btn {
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+}
+
+.skyblue {
+    background-color: #22a6b3;
+}
+
+.skyblue.light {
+    background-color: #7ed6df;
+}
+
+.violet {
+    background-color: #be2edd;
+}
+
+.violet.light {
+    background-color: #e056fd;
+}
+
+.orange {
+    background-color: #f0932b;
+}
+
+.orange.light {
+    background-color: #ffbe76;
+}
+
+.green {
+    background-color: #6ab04c;
+}
+
+.green.light {
+    background-color: #badc58;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.simon-btn {
+    position: absolute;
+    font-size: 2.5rem;
+    width: 400px;
+    height: 100px;
+    top: calc(50% - 50px);
+    left: calc(50% - 200px);
+    background-color: #ecf0f1;
+    color: #2c3e50;
+}
+
+.hide {
+    display: none;
+}
