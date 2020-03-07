@@ -17,3 +17,9 @@ class Game {
         btnStart.classList.add('hide');
     }
 }
+
+// Boton de empezar juego
+
+btnStart.addEventListener('click', () => {
+    const game = new Game()
+})
